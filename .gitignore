@@ -1,0 +1,24 @@
+# Entorno virtual
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Datasets (pesados - descargables de Kaggle)
+*.csv
+
+# IDEs y sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
